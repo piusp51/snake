@@ -1,0 +1,8 @@
+html {
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+}
+body {
+  box-sizing: 0;
+}
