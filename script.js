@@ -22,7 +22,7 @@ function canvasApp() {
   }
 
   function grid(color) {
-    ctx.fillStyle = color;
+    ctx.strokeStyle = color;
     for (let y = 0; y < height / block; ++y) {
       for (let x = 0; x < width / block; ++x) {
         ctx.strokeRect(x * block, y * block, block, block);
